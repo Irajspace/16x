@@ -26,7 +26,7 @@ export default async function Page({
 
             {/* Problems */}
             <div className="flex flex-col gap-4">
-                {roadmap.problems.map((problem) => (
+                {roadmap.problems.map((problem: any) => (
                     <div
                         key={problem.id}
                         className="bg-linear-to-r from-gray-800 to-gray-900 p-4 rounded-lg flex justify-between items-center"
